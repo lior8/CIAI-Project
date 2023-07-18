@@ -54,5 +54,5 @@ This is a wrapper to the debug files which provides a convinient interface to wo
 
 ## Analysis
 Two files are needed for the analysis: 
-1. ReadTrajectories.py, which uses the SmacTrace files and transforms trajectory objects into a csv
-2. TrajectoryClustering.ipynb which reads the csvs and clusters them. 
+1. ReadTrajectories.py, which uses the SmacTrace files and transforms trajectory objects into a csv. In order to run it, extract traces.zip and replace the input_dir with its location. 
+2. TrajectoryClustering.ipynb which reads the csvs and clusters them. Replace input_dir with the location of all csvs (output of ReadTrajectories.py)
