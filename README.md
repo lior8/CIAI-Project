@@ -53,3 +53,6 @@ Note: While probably possible, we did not manage to change more than 1 env_args 
 This is a wrapper to the debug files which provides a convinient interface to work with. Make sure to use the adapter when using a heuristic trace because they act a bit differently from the pymarl2 ones and needs to be slightly adapted before they can be analyzed.
 
 ## Analysis
+Two files are needed for the analysis: 
+1. ReadTrajectories.py, which uses the SmacTrace files and transforms trajectory objects into a csv
+2. TrajectoryClustering.ipynb which reads the csvs and clusters them. 
