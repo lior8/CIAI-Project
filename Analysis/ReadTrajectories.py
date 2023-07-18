@@ -22,6 +22,7 @@ def tajectories_to_csv(input_dir, output_dir):
                 episode_df.to_csv(output_dir + setting + "_" + filename.split(".")[0] + str(i) + ".csv", header=False, index=False)
 
 
-input_dir = r"C:\University\Semester_10\Code\Collaboration_AI\output\SmacTrace\traces"
-output_dir = r"C:\University\Semester_10\Code\Collaboration_AI\output\SmacTrace\csvs\\"
+# Fill these:
+input_dir = ""
+output_dir = ""
 tajectories_to_csv(input_dir, output_dir)
