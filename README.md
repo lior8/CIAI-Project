@@ -1,4 +1,5 @@
 # Running the Project
+The report can be found [here](CIAI_Project_Report.pdf).
 
 ## StarCraft II Setup
 You can see [here](https://github.com/lior8/CIAI-Project/tree/main/smac#installing-starcraft-ii) a guide to install StarCraft II and where to put the SMAC maps.
